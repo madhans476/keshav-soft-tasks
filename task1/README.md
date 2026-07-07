@@ -2,6 +2,9 @@
 
 A 3-page responsive marketing site (`index.html`, `about.html`, `contact.html`) built with HTML5, CSS3, and Bootstrap 5 via CDN, for a fictional workflow-automation product called **Orbiq**.
 
+[Visit Orbiq (task 1)](https://keshav-soft-tasks-nine.vercel.app/index.html)
+
+
 This README is a transparent account of how the project was actually built, so that anyone reviewing it — a mentor, a reviewer, or future-me — knows exactly what was done, what tools were involved, and where the AI's contribution starts and stops. Nothing below is dressed up.
 
 ---
@@ -57,7 +60,7 @@ Rather than invent a "three days of debugging" narrative that didn't happen, her
 
 ## 5. Time taken
 
-`[ ~2.5 hours / ___ days ]` |
+`[ ~1.5 hours ]` |
 
 ---
 
