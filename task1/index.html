@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orbiq — Workflow automation for connected teams</title>
+  <meta name="description" content="Orbiq connects the tools your team already uses and automates the busywork between them.">
+
+  <!-- Bootstrap 5 (CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons (CDN) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Google Fonts: Space Grotesk (display) + Inter (body) + IBM Plex Mono (labels) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+  <!-- Custom brand styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <header>
+    <nav class="navbar navbar-expand-lg sticky-top py-3">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <svg class="brand-mark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="16" cy="16" r="15" stroke="#2B4FFF" stroke-width="1.5" stroke-dasharray="3 3"/>
+            <circle cx="16" cy="16" r="6" fill="#2B4FFF"/>
+            <circle cx="27" cy="16" r="2.6" fill="#FFB020"/>
+          </svg>
+          Orbiq
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+              <a class="btn btn-primary" href="contact.html">Get Started</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ==================== HERO ==================== -->
+    <section class="hero">
+      <div class="container section">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-6">
+            <p class="eyebrow mb-3">Workflow automation</p>
+            <h1 class="hero-headline mb-4">Connect your tools.<br>Let the work orbit itself.</h1>
+            <p class="hero-lede mb-4">
+              Orbiq links the apps your team already runs — inbox, tickets, spreadsheets, chat —
+              into a single automated flow, so status updates chase themselves instead of chasing you.
+            </p>
+            <div class="d-flex flex-wrap gap-3">
+              <a href="contact.html" class="btn btn-primary btn-lg">
+                Start free trial <i class="bi bi-arrow-right ms-1"></i>
+              </a>
+              <a href="about.html" class="btn btn-outline-secondary btn-lg">See how it works</a>
+            </div>
+            <div class="d-flex align-items-center gap-3 mt-4 text-muted-2 small">
+              <i class="bi bi-shield-check"></i> No credit card required &middot; Cancel anytime
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <!-- Signature graphic: orbit ring representing tools pulled into one flow -->
+            <div class="orbit-wrap" role="img" aria-label="Illustration of three app icons orbiting a central automation core">
+              <div class="orbit-ring ring-outer"></div>
+              <div class="orbit-ring ring-inner"></div>
+              <div class="orbit-node node-a"><i class="bi bi-envelope-fill"></i></div>
+              <div class="orbit-node node-b"><i class="bi bi-kanban-fill"></i></div>
+              <div class="orbit-node node-c"><i class="bi bi-chat-dots-fill"></i></div>
+              <div class="orbit-core"><i class="bi bi-lightning-charge-fill"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FEATURES ==================== -->
+    <section class="section" id="features">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-lg-7">
+            <p class="eyebrow mb-2">What you get</p>
+            <h2 class="mb-3">Everything between "we should automate that" and done</h2>
+            <p class="text-muted-2">Four building blocks. Combine them however your process actually works.</p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card card-feature h-100 p-4 shadow-sm">
+              <div class="icon-tile mb-3"><i class="bi bi-signpost-split-fill"></i></div>
+              <h3 class="h5">Smart routing</h3>
+              <p class="text-muted-2 mb-0">Send each request to the right person automatically, based on rules your team already follows.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card card-feature h-100 p-4 shadow-sm">
+              <div class="icon-tile mb-3"><i class="bi bi-arrow-repeat"></i></div>
+              <h3 class="h5">Live sync</h3>
+              <p class="text-muted-2 mb-0">Keep every connected tool updated in real time, so no one is ever working from stale data.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card card-feature h-100 p-4 shadow-sm">
+              <div class="icon-tile mb-3"><i class="bi bi-bar-chart-line-fill"></i></div>
+              <h3 class="h5">Insight reports</h3>
+              <p class="text-muted-2 mb-0">See where work actually gets stuck, with plain-language reports instead of raw dashboards.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card card-feature h-100 p-4 shadow-sm">
+              <div class="icon-tile mb-3"><i class="bi bi-lock-fill"></i></div>
+              <h3 class="h5">Secure by design</h3>
+              <p class="text-muted-2 mb-0">Granular permissions and full audit logs, so automation never means losing control.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== STATS + TESTIMONIAL ==================== -->
+    <section class="section section-surface">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-7">
+            <div class="row text-center g-4">
+              <div class="col-6 col-md-3">
+                <div class="stat-figure">1,200+</div>
+                <p class="text-muted-2 small mb-0">Teams onboard</p>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="stat-figure">18k</div>
+                <p class="text-muted-2 small mb-0">Hours saved / month</p>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="stat-figure">40+</div>
+                <p class="text-muted-2 small mb-0">Native integrations</p>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="stat-figure">99.95%</div>
+                <p class="text-muted-2 small mb-0">Uptime, last 12 months</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="card border-0 shadow-sm p-4">
+              <span class="quote-mark">&ldquo;</span>
+              <p class="mb-3">
+                We replaced four spreadsheets and a very tired Slack bot with one Orbiq flow.
+                Our request backlog dropped by half in the first month.
+              </p>
+              <div class="d-flex align-items-center gap-3">
+                <img src="https://placehold.co/48x48/2B4FFF/FFFFFF?text=RM" class="rounded-circle" width="48" height="48" alt="Portrait of Riya Menon">
+                <div>
+                  <div class="fw-semibold">Riya Menon</div>
+                  <div class="text-muted-2 small">Operations Lead, Fernbridge Co.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CTA ==================== -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-band p-4 p-md-5 text-center">
+          <h2 class="mb-2">Ready to put your workflow on autopilot?</h2>
+          <p class="mb-4 opacity-75">Talk to us about your process — we'll show you exactly what to automate first.</p>
+          <a href="contact.html" class="btn btn-accent btn-lg">Get in touch <i class="bi bi-arrow-right ms-1"></i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer pt-5 pb-4">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <a class="navbar-brand text-white mb-3 d-inline-flex" href="index.html">
+            <svg class="brand-mark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="16" cy="16" r="15" stroke="#FFB020" stroke-width="1.5" stroke-dasharray="3 3"/>
+              <circle cx="16" cy="16" r="6" fill="#FFB020"/>
+              <circle cx="27" cy="16" r="2.6" fill="#FFFFFF"/>
+            </svg>
+            Orbiq
+          </a>
+          <p class="small mb-3">Workflow automation for teams who'd rather build things than babysit spreadsheets.</p>
+          <div class="d-flex gap-2">
+            <a href="#" class="social-icon" aria-label="Orbiq on Twitter / X"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="social-icon" aria-label="Orbiq on LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="social-icon" aria-label="Orbiq on GitHub"><i class="bi bi-github"></i></a>
+            <a href="#" class="social-icon" aria-label="Orbiq on Instagram"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h6 class="mb-3">Product</h6>
+          <ul class="list-unstyled small">
+            <li class="mb-2"><a href="index.html#features">Features</a></li>
+            <li class="mb-2"><a href="about.html">Integrations</a></li>
+            <li class="mb-2"><a href="contact.html">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h6 class="mb-3">Company</h6>
+          <ul class="list-unstyled small">
+            <li class="mb-2"><a href="about.html">About</a></li>
+            <li class="mb-2"><a href="about.html#team">Team</a></li>
+            <li class="mb-2"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h6 class="mb-3">Stay in the loop</h6>
+          <p class="small mb-3">Occasional product notes. No spam, ever.</p>
+          <form class="d-flex gap-2" onsubmit="return false;">
+            <label for="footerEmail" class="visually-hidden">Email address</label>
+            <input type="email" id="footerEmail" class="form-control form-control-sm" placeholder="you@company.com" required>
+            <button class="btn btn-sm btn-accent" type="submit">Join</button>
+          </form>
+        </div>
+      </div>
+      <hr class="border-secondary mt-4 mb-3">
+      <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center small gap-2">
+        <span>&copy; 2026 Orbiq, Inc. All rights reserved.</span>
+        <span>
+          <a href="#" class="me-3">Privacy</a>
+          <a href="#">Terms</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle (includes Popper) via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
