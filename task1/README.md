@@ -57,7 +57,7 @@ Rather than invent a "three days of debugging" narrative that didn't happen, her
 
 ## 5. Time taken
 
-`[ ~2.5 hours / ___ days ]` |
+`[ ~1.5 hours ]` |
 
 ---
 
